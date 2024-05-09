@@ -1,0 +1,29 @@
+POST https://dev.smartjournal.net:443/um/test/api/jr/txn/v1
+Content-Type: application/json
+
+{
+  "aidId": 13,
+  "amount": 21,
+  "appWithErr": true,
+  "atmId": [
+    15
+  ],
+  "date0": 0,
+  "date1": 0,
+  "devtime0": 20210430090849,
+  "devtime1": 20210430090855,
+  "hostId": [
+    0
+  ],
+  "key": [
+    0
+  ],
+  "pan": "434256*3498",
+  "ref": "string",
+  "state": [
+    0
+  ],
+  "ttypeId": [
+    0
+  ]
+}
