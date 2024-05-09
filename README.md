@@ -1,6 +1,6 @@
 # Transaction Search Coding Challenge
 
-Welcome to the Transaction Search Coding Challenge! This project is focused on meeting wireframe expectations and implementing asynchronous data gathering.
+Welcome to my take on the Transaction Search Coding Challenge! This project is focused on meeting wireframe expectations and implementing asynchronous data gathering.
 
 ## Test Page
 You can check out the test page for this project [here](https://dev.smartjournal.net/swagger-ui/#/journal-txn-controller-test).
