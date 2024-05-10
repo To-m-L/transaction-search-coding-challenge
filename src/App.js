@@ -178,8 +178,8 @@ function App() {
     let endDateHour = endDate.$H;
     let startDateMinute = startDate.$m;
     let endDateMinute = endDate.$m;
-    let startDateString = startDateYear + padZero(startDateMonth) + padZero(startDateDay) + padZero(startDateHour) + padZero(startDateMinute) + '00';
-    let endDateString = endDateYear + padZero(endDateMonth) + padZero(endDateDay) + padZero(endDateHour) + padZero(endDateMinute) + '00';
+    let startDateString = "" + startDateYear + padZero(startDateMonth) + padZero(startDateDay) + padZero(startDateHour) + padZero(startDateMinute) + '00';
+    let endDateString = "" + endDateYear + padZero(endDateMonth) + padZero(endDateDay) + padZero(endDateHour) + padZero(endDateMinute) + '00';
 
     if (AtmOption == "all") {
       for (let i = 0; i < AtmList.length; i++) {
